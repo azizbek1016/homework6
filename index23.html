@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation: fade 0.7s infinite backwards;
+    margin-left: 768px;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    box-shadow: 5px 20px 15px black;
+}
+@keyframes fade {
+        0% {
+            transform: translate(0, 400px) rotate(180deg);
+        }
+        100% {
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
